@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: puppim/kube-new:v1
+        image: puppim/kube-new:{{TAG}}
         resources:
           limits:
             memory: "128Mi"
